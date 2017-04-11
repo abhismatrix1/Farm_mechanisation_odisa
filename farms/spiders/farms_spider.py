@@ -2,8 +2,8 @@ import scrapy
 from scrapy.utils.response import open_in_browser
 from scrapy.selector import Selector
 
-class QuotesSpider(scrapy.Spider):
-    name = 'farmc'
+class FarmsSpider(scrapy.Spider):
+    name = 'farms'
     start_url = 'http://agrisnetodisha.ori.nic.in/FMNEW/CitizenView_Permit.aspx'
     download_delay = 1.5
     cookies = {'ASP.NET_SessionId': '45qklh555xzhek55hb4ceb45'}
